@@ -1,38 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&family=Quicksand:wght@300;400;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.start{
+  background-color: #7750e6;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item{
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.log-btn{
+  margin-right: 10px;
+}
+.log-btn-search{
+  padding: 6px;
+  border-radius: 2px;
+  background-color: #ff4f4f;
+}
+.start-center{
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.center-left{
+  display: flex;
+  flex-direction: column;
+}
+.center-h{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+.center-img{
 }
