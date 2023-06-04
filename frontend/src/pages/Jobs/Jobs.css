@@ -1,0 +1,19 @@
+.jobs-page{
+    background-color: white;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.jobs-filters{
+    text-align: left;
+    margin-left: 20px;
+}
+.jobs-board{
+    text-align: left;
+    margin-left: 20px;
+}
+.jobs-board-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}

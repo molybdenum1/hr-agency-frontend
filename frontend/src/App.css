@@ -3,7 +3,10 @@ body{
   margin: 0;
   padding: 0;
 }
-
+a{
+  color: #e5e5e5;
+  text-decoration: none;
+}
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
